@@ -15,7 +15,7 @@ spec:
         app: accounts
     spec:
       containers:
-      - image: IMAGE_NAME_HERE
+      - image: accounts:latest
         name: accounts
         ports:
         - containerPort: 8080
